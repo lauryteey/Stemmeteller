@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kommunevalg 2024</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="navn">
+
+        <h1 class="tittel">Kommunevalg 2024</h1>
+        <h2 class="tittel2">Erikstad kommune</h2>
+
+    </div>
+
+
+    <div class="stemmeroggrafikk">
+
+        <div class="buttons">
+
+            <button class="ap" onclick="votebutton1()">Stem AP</button>
+            <p>stemmer: <a id="clicks">0</a></p>
+
+            <button class="høyre" onclick="votebutton2()">Stem Høyre</button>
+            <p>Stemmer: <a id="clicks2">0</a></p>
+
+            <button class="sp" onclick="votebutton3()">Stem Senterpartiet</button>
+            <p>Stemmer: <a id="clicks3">0</a></p>
+
+            <button class="cl" onclick="votebutton4()">Stem Cats Lover</button>
+            <p>Stemmer: <a id="clicks4">0</a></p>
+
+            <button class="reset" onclick="resetVotes()">Nullstill Resultater</button>
+
+            
+
+        </div>
+
+        <div class="grafikk">
+            <canvas id="diagram"></canvas>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+body {
+    background-color: #e1d8ea;
+    margin: 0%;
+}
+
+.tittel {
+    display: flex;
+    justify-content: center;
+    font-family: arial;
+    font-size: 300%;
+}
+
+.tittel2 {
+    display: flex;
+    justify-content: center;
+    font-family: arial;
+    font-size: 230%;
+}
+
+
+
+.stemmeroggrafikk {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10%;
+    background-color: #f1f2f2;
+    height: 500px;
+}
+
+.buttons {
+    font-family: arial;
+
+    padding-left: 3%;
+}
+
+.ap {
+    background-color: #d70926;
+    color: white;
+    width: 90%;
+
+}
+
+.høyre {
+    background-color: #0065f1;
+    color: white;
+    width: 90%;
+}
+.sp{
+    background-color:green;
+    color: white;
+}
+
+.cl{
+    background-color: #ff5bc2 ;
+}
+
+.grafikk {
+    width: 60%;
+    height: 80%;
+    display: flex;
+    padding-right: 3%;
+    padding-top: 9%;
+}
